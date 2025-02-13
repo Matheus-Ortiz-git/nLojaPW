@@ -1,5 +1,10 @@
+
 <h1><?php echo $dados['titulo']; ?></h1>
 <p><?php echo $dados['descricao']; ?></p>
+
+
+
+
 <div class="header-inner-content">
         <div class="header-bottom-side">
             <div class="header-bottom-side-left">
@@ -18,7 +23,7 @@
             </div>
         </div>
     </div>
-    </header>
+
 
 <div class="container" id="container">
     <h2>Nossos Produtos</h2>

@@ -4,3 +4,200 @@
     align-items:center;
 
 }
+header{
+    height:100px;
+    background-color: rgb(78, 78, 78);
+    padding: 1rem;
+    text-align: center;
+}
+.link{ 
+    color: #01050e; 
+     padding: 15px;
+     margin: 0 15px; 
+     text-decoration: none;
+      font-weight: bold; 
+      border-radius: 5px; 
+      transition: background-color 0.3s, color 0.3s;
+     } 
+     .link:hover { 
+        background-color: #007bff; 
+        color: #fff; 
+    } 
+
+
+
+
+    
+/*parte do home*/
+.header-bottom-side-right{ 
+    flex-basis:50%;
+    display:flex;
+    align-items:center;
+    justify-content:center;
+}
+.header-bottom-side-right img{
+    width: 50%;
+    border-radius: 10px
+}
+.header-bottom-side-left button{
+    background-color:rgb(80, 130, 224);
+    border: none;
+    cursor: pointer;
+    padding: 0.8rem 3.8rem;
+    border-radius: 100px;
+    color: white;
+    font-weight:500;
+    font-size: 1rem;
+    transition: all 0.2s;
+}
+.header-bottom-side-left button:hover{
+    background-color: black;
+}
+.header-bottom-side{
+    display: flex;
+    align-items: center;
+    justify-self:center;
+    padding: 1rem;
+}
+.header-bottom-side-left{
+    height:100%;
+    flex-basis:50%
+}
+.header-bottom-side-left h1{
+    
+    color: black;
+    font-size: 4.2rem;
+    margin-bottom:1.5rem;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+}
+.header-bottom-side-left p{
+    color: black;
+    font-family: monospace;
+    font-size: 20px;
+    line-height: 1.5rem;
+    margin-bottom:1.5rem;
+}
+.botton-pesquisa{
+    font-size: 15px;
+    padding: 5px;
+}
+.barra-pesquisa {
+    text-align:center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 20px;
+}
+
+.pesquisa {
+    height: 31px;
+    width: 600px;
+    padding: 10px;
+    border: 2px solid #ddd;
+    border-radius: 25px 0 0 25px;
+    outline: none;
+    font-size: 16px;
+    transition: border-color 0.3s;
+}
+
+.pesquisa:focus {
+    border-color: #7eb0e6;
+}
+
+.botton-pesquisa {
+    height:55px;
+    padding: 10px 20px;
+    border: 2px solid #4d8dd1;
+    border-radius: 0 25px 25px 0;
+    background-color: #5c98d8;
+    color: #fff;
+    cursor: pointer;
+    font-size: 16px;
+    transition: background-color 0.3s, border-color 0.3s;
+}
+
+.botton-pesquisa:hover {
+    background-color: #5b9ee6;
+    border-color: #5e9fe4;
+}
+.barra-logo h2{
+    display: inline-block;
+    text-decoration: none;
+    color:rgb(0, 0, 0)
+}
+/*parte do home*/
+
+
+
+/*parte login*/
+
+.login-container a{
+    display: inline-block;
+    text-decoration: none;
+        color: aliceblue;
+}
+.login-container {
+    color: white;
+    background-color: black;
+    position: absolute;
+    top: 60%;
+    left: 50%;
+    transform: translate(-50%, -50%) ;
+    padding: 60px;
+    border-radius: 10px;
+    outline: none;
+        }
+        .login-container h2 {
+            margin-bottom: 1rem;
+        }
+.login-container label {
+            display: block;
+            margin-bottom: 1rem;
+        }
+        .login-container input {
+            width: 250px;
+            padding: 0.5rem;
+            margin-bottom: 1rem;
+            border: 1px solid #ccc;
+            border-radius: 3px;
+        }
+.login-container button {
+            width: 270px;
+            padding: 1rem;
+            background-color: #7da9d8;
+            border: none;
+            color: #fff;
+            border-radius: 10px;
+            cursor: pointer;
+        }
+.login-container button:hover {
+            background-color: #5c8bbd;
+        }
+        main {
+            flex: 1;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            padding: 1rem;
+        }
+/*parte login*/
+
+
+
+/*parte carrinho*/
+.container {
+    width: 80%;
+    margin: auto;
+    overflow: hidden;
+}
+.cart {
+    margin: 20px 0;
+    padding: 10px;
+    background: #fff;
+    border: 1px solid #ddd;
+}
+/*parte carrinho*/
+
+
+
+
