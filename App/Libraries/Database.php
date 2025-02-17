@@ -3,7 +3,7 @@ class Database{
     private $host = "localhost";
     private $usuario = "root";
     private $senha = "";
-    private $banco = "blogaula";
+    private $banco = "loja";
     private $porta = "3306"; //verificar a porta do seu banco
     private $dbh;
     private $stmt;

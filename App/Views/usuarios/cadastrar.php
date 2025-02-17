@@ -29,8 +29,7 @@
                     </div>
                 </div>
                 <div class="form-group">
-                    <label for="confirma_senha">Confirme a Senha: <sup class="text-danger">*</sup></label>
-                    <input type='password' name='confirma_senha' id='confirma_senha' class='form-control <?= $dados['confirma_senha_erro'] ? 'is-invalid' : '' ?>'>
+                    <label for="confirma_senha">Confirme a Senha: <sup class="te    a' class='form-control <?= $dados['confirma_senha_erro'] ? 'is-invalid' : '' ?>'>
                     <div class="invalid-feedback">
                         <?= $dados['confirma_senha_erro'] ?>
                     </div>
@@ -41,7 +40,7 @@
                         <input type="submit" value="Cadastrar" class="btn btn-info btn-block">
                     </div>
                     <div class="col">
-                        <a href="<?=URL?>/usuarios/logar">Você tem uma conta? Faça login</a>
+                        <a href="<?=URL?>/pagina/login">Você tem uma conta? Faça login</a>
                     </div>
                 </div>
 

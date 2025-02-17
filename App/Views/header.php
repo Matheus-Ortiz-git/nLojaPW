@@ -2,7 +2,7 @@
     <nav>
     <div class="parte-cima">
             <div>
-                <a class="barra-logo" href="Front.php">
+                <a class="barra-logo" href="<?=URL?>/">
                     <h2>Fashion</h2><h2>Online</h2>
                 </a>
             </div>

@@ -11,7 +11,7 @@ class Usuario
 
     public function checarEmail($email)
     {
-        $this->db->query("SELECT email FROM usuarios WHERE email = :e");
+        $this->db->query("SELECT email FROM usuario WHERE email = :e");
         $this->db->bind(":e", $email);
 
         if ($this->db->resultado()) :
@@ -23,7 +23,7 @@ class Usuario
 
     public function armazenar($dados)
     {
-        $this->db->query("INSERT INTO usuarios(nome, email, senha) VALUES (:nome, :email, :senha)");
+        $this->db->query("INSERT INTO usuario(nome, email, senha) VALUES (:nome, :email, :senha)");
 
         $this->db->bind("nome", $dados['nome']);
         $this->db->bind("email", $dados['email']);
@@ -38,7 +38,7 @@ class Usuario
 
     public function checarLogin($email, $senha)
     {
-        $this->db->query("SELECT * FROM usuarios WHERE email = :e");
+        $this->db->query("SELECT * FROM usuario WHERE email = :e");
         $this->db->bind(":e", $email);
 
         if ($this->db->resultado()) : 
@@ -55,7 +55,7 @@ class Usuario
 
 
     public function lerUsuarioPorId($id){
-        $this->db->query("SELECT * FROM usuarios WHERE id = :id");
+        $this->db->query("SELECT * FROM usuario WHERE id = :id");
         $this->db->bind('id', $id);
 
         return $this->db->resultado();

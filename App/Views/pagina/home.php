@@ -3,8 +3,6 @@
 <p><?php echo $dados['descricao']; ?></p>
 
 
-
-
 <div class="header-inner-content">
         <div class="header-bottom-side">
             <div class="header-bottom-side-left">
@@ -15,7 +13,7 @@
                       necessidades e superar suas expectativas. Nosso compromisso é com a excelência no atendimento ao cliente,
                        preços competitivos e produtos que fazem a diferença no seu dia a dia.
                 </p>
-                <button>VER</button>
+                <a href="<?=URL?>/pagina/detalheP"><button> VER</button></a>
             </div>
             
             <div class="header-bottom-side-right">
@@ -30,7 +28,7 @@
 
 
     <?php foreach ($dados['produto'] as $produto) : ?>
-    <div class="products">
+     <div class="products">
     <div class="product">
         <img src="https://cea.vtexassets.com/arquivos/ids/58750822-300-360?v=638542433613300000&width=300&height=360&aspect=true" alt="Produto 1">
         <h3> <?= $produto->nome_produto?></h3>
