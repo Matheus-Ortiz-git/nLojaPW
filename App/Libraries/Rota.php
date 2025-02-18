@@ -1,7 +1,7 @@
 <?php
 class Rota{
    private $controlador = "Paginas";
-   private $metodo = 'login';
+   private $metodo = 'index';
    private $parametros = [];
 
    public function __construct(){
