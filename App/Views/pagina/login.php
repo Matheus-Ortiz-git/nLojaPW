@@ -29,7 +29,7 @@
                         <input type="submit" value="Logar" class="btn btn-info btn-block">
                     </div>
                     <div class="col">
-                        <a href="<?=URL?>/usuarios/cadastrar">Você não tem uma conta? Faça o seu cadastro</a>
+                        <a href="<?=URL?>/pagina/cadastrar">Você não tem uma conta? Faça o seu cadastro</a>
                     </div>
                 </div>
 
