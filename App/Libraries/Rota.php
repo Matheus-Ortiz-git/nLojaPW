@@ -1,7 +1,7 @@
 <?php
 class Rota{
    private $controlador = "Paginas";
-   private $metodo = 'index';
+   private $metodo = 'login';
    private $parametros = [];
 
    public function __construct(){
@@ -19,6 +19,7 @@ class Rota{
          unset($url[1]);
          }//fim do if que verifica se o método existe
       }//fim do if que verifica se a url existe
+
       $this->parametros = $url ? array_values($url) : [];
       call_user_func_array([$this->controlador, $this->metodo], $this->parametros);     
       //var_dump($this);

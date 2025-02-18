@@ -1,14 +1,27 @@
-.parte-cima{
-    display: flex;
-    justify-content: space-between;
-    align-items:center;
-
+.tudo{
+    background-color: #F5DEB3;
 }
+
+@media (min-width: 601px) {
+    .parte-cima{
+        display: flex;
+        justify-content: space-between;
+        align-items:center;
+    
+    }
+    .link {
+        width: 48%;
+    }
+}
+
 header{
     height:100px;
-    background-color: #FFC0CB;
+    background-color:rgb(183, 81, 195);
     padding: 1rem;
-    text-align: center;
+    text-align: start;
+        width: 100%;
+        margin: 0 auto;
+    
 }
 .link{ 
     color: #01050e; 
@@ -20,7 +33,7 @@ header{
       transition: background-color 0.3s, color 0.3s;
      } 
      .link:hover { 
-        background-color: #ff0000; 
+        background-color: #000000; 
         color: #fff; 
     } 
 
@@ -70,6 +83,9 @@ header{
 
     
 /*parte do home*/
+.header-inner-content{
+    padding-top: 1%; 
+}
 .header-bottom-side-right{ 
     flex-basis:50%;
     display:flex;
@@ -90,13 +106,13 @@ header{
     font-weight:500;
     font-size: 1rem;
     transition: all 0.2s;
-    text-align: center;
-    align-items: center;
+
 }
 .header-bottom-side-left button:hover{
     background-color: rgb(255, 0, 0);
 }
 .header-bottom-side{
+    background-color: 	#FF69B4;
     display: flex;
     align-items: center;
     justify-self:center;
@@ -119,7 +135,8 @@ header{
     font-size: 20px;
     line-height: 1.5rem;
     margin-bottom:1.5rem;
-}
+    text-align:left;
+ }
 .botton-pesquisa{
     font-size: 15px;
     padding: 5px;
@@ -244,15 +261,6 @@ header{
 
 
 /*parte  de inserir imagem*/
-body {
-    font-family: Arial, sans-serif;
-    background-color: #f7f7f7;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    height: 100vh;
-    margin: 0;
-}
 
 .inserir-imagem {
     background-color: #fff;

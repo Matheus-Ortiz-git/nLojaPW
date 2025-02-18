@@ -27,13 +27,24 @@ class Paginas extends Controller{
                  orientado a objetos com MVC'];
      $this->view('pagina/detalheP', $dados);
     }
-    public function upload(){
+    public function produtos(){
       $dados = ['titulo'=>'Sobre nós...',
                 'descricao'=>'Esta aula é sobre PHP 
                  orientado a objetos com MVC'];
-     $this->view('pagina/upload', $dados);
+     $this->view('pagina/produtos', $dados);
     }
-
+    public function carrosel(){
+      $dados = ['titulo'=>'Sobre nós...',
+                'descricao'=>'Esta aula é sobre PHP 
+                 orientado a objetos com MVC'];
+     $this->view('pagina/carrosel', $dados);
+    }
+    public function cadastrar(){
+      $dados = ['titulo'=>'Sobre nós...',
+                'descricao'=>'Esta aula é sobre PHP 
+                 orientado a objetos com MVC'];
+     $this->view('pagina/cadastrar', $dados);
+    }
 }//fim da classe Paginas
 
 ?>

@@ -44,6 +44,6 @@ $conn->close();
     <?php else: ?>
         <p>Sem imagens disponíveis.</p>
     <?php endif; ?>
-    <a href="index.php">Voltar aos Produtos</a>
+    <a href="">Voltar aos Produtos</a>
 </body>
 </html>

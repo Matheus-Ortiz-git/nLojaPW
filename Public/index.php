@@ -73,7 +73,7 @@ echo '<hr>Ultimo ID inserido'.$db->ultimoIdInserido();
     <link rel="stylesheet" type="text/css" href="<?=URL?>/public/css/estilo.css"/>
     <link rel="stylesheet" type="text/css" href="<?=URL?>/public/bootstrap/css/bootstrap.css"/>
 </head>
-<body>
+<body class="tudo">
     <?php
     include "../App/Views/header.php";
     $rotas = new Rota();
